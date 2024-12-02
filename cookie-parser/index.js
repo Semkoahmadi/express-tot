@@ -27,6 +27,10 @@ app.get("/clear-cookie/:name", (req, res) => {
     res.clearCookie(req.params.name)
     res.send("remove successful by name ")
 })
+app.get("/clear-cookie/:name", (req, res) => {
+    res.clearCookie(req.params.name)
+    res.send("remove successful by name ")
+})
 app.listen(3000, () => {
     console.log("local host 3000000000000000000");
 })
