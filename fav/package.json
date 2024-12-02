@@ -1,0 +1,16 @@
+{
+  "name": "fav",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "serve-favicon": "^2.5.0"
+  }
+}
