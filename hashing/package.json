@@ -1,0 +1,16 @@
+{
+  "name": "hashing",
+  "version": "1.0.0",
+  "main": "crypto.js",
+  "scripts": {
+    "start": "nodemon node bcrypto.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.1"
+  }
+}
